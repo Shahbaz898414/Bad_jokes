@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.cont{
+
+  text-align: center;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+h2{
+  /* font-size: 15px; */
+  font-weight: bold;
+
+}
+
+p{
+  font-weight: bold;
+
+}
+
+.click {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 40%;
+  font-size: 18px;
+  font-weight: bold;
+  /* border: none; */
+  cursor: pointer;
+}
